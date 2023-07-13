@@ -1,38 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
+.projImg {
+height: 60vh;
+width: 80vh;
+margin-left: 25vh;
+box-shadow: 10;
+}
+
+.home {
+  width: 100%;
+  display: flex;
+  /* background-image: url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426");
+  background-repeat: no-repeat; */
+  background: linear-gradient(to right, rgba(255,255,255,0) 5%,
+  rgba(255,255,255,1)), url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426");
+  background-size: 100%;
+  background-position-y: 50%;
+
+  z-index: 0;
+}
+
+.me {
+  height: 75vh;
+  margin-left: 45vh;
+  margin-top: 15vh;
+  margin-right: 0;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
