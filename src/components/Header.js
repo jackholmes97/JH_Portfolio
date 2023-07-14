@@ -31,6 +31,14 @@ export default function Header() {
           onKeyDown={toggleMenu(anchor, false)}
         >
           <List>
+            <ListItem key="home" disablePadding>
+                <ListItemButton component={NavLink} to={`/`}>
+                  <ListItemIcon>
+                    <EastIcon/>
+                  </ListItemIcon>
+                  <ListItemText primary={"home"} />
+                </ListItemButton>
+            </ListItem>
             {['about', 'stack', 'projects', 'contact'].map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton component={NavLink} to={`/${text}`}>
@@ -57,7 +65,7 @@ export default function Header() {
                   zIndex: 1
                   }}>
             {/* <NavLink className='navLink' to='/'>JDH</NavLink> */}
-            <Link className='navLink' underline="none" sx={{ml: "42%",mt: "-10px", fontFamily: "Faster One, cursive", fontSize: "100px", color: "white", textShadow: "-6px -0px 1px rgba(255,255,255,0.5)"}} component={NavLink} to={"/"}>JDH</Link>
+            <Link className='navLink' underline="none" sx={{ml: "47%",mt: "-10px", fontFamily: "Faster One, cursive", fontSize: "100px", color: "white", textShadow: "-6px -0px 1px rgba(255,255,255,0.5)"}} component={NavLink} to={"/"}>JH</Link>
             <Fragment key={anchor}>
                 <Button onClick={toggleMenu(anchor, true)} sx={{bottom:"10px", right: "5px"}}>
                     <MenuIcon sx={{fontSize : "50px", color: "white"}}/>

@@ -5,8 +5,16 @@
 height: 60vh;
 width: 80vh;
 margin-left: 25vh;
-box-shadow: 10;
+box-shadow: 2px 2px 20px grey;
 }
+
+.projImg2 {
+  height: 60vh;
+  width: 80vh;
+  margin-left: 30vh;
+  margin-right: 25vh;
+  box-shadow: 2px 2px 20px grey;
+  }
 
 .home {
   width: 100%;
@@ -25,7 +33,6 @@ box-shadow: 10;
   height: 75vh;
   margin-left: 45vh;
   margin-top: 15vh;
-  margin-right: 0;
 }
 
 .App {
