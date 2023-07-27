@@ -5,9 +5,12 @@ import Bounce from "react-reveal/Bounce";
 export default function Home() {
     return (
         <div className="home">
+            <div className="geeks2"></div>
+            <div className="geeks3"></div>
+            <div className="geeks"></div>
             <Box >
                 <Bounce bottom>
-                    <img className="me" src="me.PNG" alt="me"></img>
+                    <img className="me" src="Me_home.PNG" alt="me"></img>
                 </Bounce>
             </Box>
             <Box sx={{width: "500px", ml: 35, mt: 20}}>
@@ -19,7 +22,9 @@ export default function Home() {
                 </Typography>
             </Box>
             </Box>
-            
+            <div className="another-div"></div>
+            <div className="another-div2"></div>
+            <div className="another-div3"></div>
         </div>
     )
 }

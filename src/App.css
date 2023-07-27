@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 
+.body {
+  height: 100vh;
+}
 .projImg {
 height: 60vh;
 width: 80vh;
@@ -18,23 +21,115 @@ box-shadow: 2px 2px 20px grey;
 
 .home {
   width: 100%;
+  ;
   display: flex;
   /* background-image: url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426");
   background-repeat: no-repeat; */
   background: linear-gradient(to right, rgba(255,255,255,0) 5%,
-  rgba(255,255,255,1)), url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426");
+  rgba(255,255,255,.75)), url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426");
   background-size: 100%;
   background-position-y: 50%;
 
-  z-index: 0;
+  z-index: -2;
 }
 
 .me {
+  position: relative;
   height: 75vh;
   margin-left: 45vh;
   margin-top: 15vh;
+  top: 20px;
+  z-index: 0;
 }
 
+.react {
+  position: absolute;
+  height: 150px;
+  margin-left: 15vh;
+  z-index: 1;
+}
+
+.ruby {
+  position: absolute;
+  height: 150px;
+  top: 60%;
+  left: 83%;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.geeks {
+  width: 85%;
+  height: 3px;
+  background: rgb(27, 99, 61);
+  position: absolute;
+  top: 10%;
+  left: -85%; /* Initial position outside the left edge of the screen */
+  animation: slideInFromLeft 5s ease forwards;
+}
+
+.geeks2 {
+  width: 90%;
+  height: 3px;
+  background: rgb(27, 99, 61);
+  position: absolute;
+  top: 7.5%;
+  left: -90%; /* Initial position outside the left edge of the screen */
+  animation: slideInFromLeft 5s ease forwards;
+}
+
+.geeks3 {
+  width: 95%;
+  height: 3px;
+  background: rgb(27, 99, 61);
+  position: absolute;
+  top: 5%;
+  left: -95%; /* Initial position outside the left edge of the screen */
+  animation: slideInFromLeft 5s ease forwards;
+}
+
+.another-div {
+  width: 85%;
+  height: 3px;
+  background: rgb(27, 99, 61);
+  position: absolute;
+  top: 80%;
+  right: -85%; /* Initial position outside the right edge of the screen */
+  animation: slideInFromRight 5s ease forwards;
+}
+.another-div2 {
+  width: 90%;
+  height: 3px;
+  background: rgb(27, 99, 61);
+  position: absolute;
+  top: 82.5%;
+  right: -90%; /* Initial position outside the right edge of the screen */
+  animation: slideInFromRight 5s ease forwards;
+}
+.another-div3 {
+  width: 95%;
+  height: 3px;
+  background: rgb(27, 99, 61);
+  position: absolute;
+  top: 85%;
+  right: -95%; /* Initial position outside the right edge of the screen */
+  animation: slideInFromRight 5s ease forwards;
+}
 .App {
   text-align: center;
 }

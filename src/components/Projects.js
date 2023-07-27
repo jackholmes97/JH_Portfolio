@@ -5,10 +5,13 @@ import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 export default function Projects() {
     return (
-        <>
+        <Box sx={{boxShadow: 10, paddingTop: 5}}>
+        <Fade up>
+            <Typography variant="h1" sx={{fontFamily: "Cormorant SC, serif", color:"rgb(27, 99, 61)"}} gutterBottom>Recent Projects</Typography>
+        </Fade>
         <Fade left>
             <Box sx={{mt: 10, height: "75vh", display: "flex"}}>
-                <img className="projImg" src="/Dumpp.png" alt="me"></img>
+                <img className="projImg" src="/projects/Dumpp.png" alt="me"></img>
                 <Box sx={{ml: "10vh", mb: 0}}>
                     <Typography variant="h2" gutterBottom sx={{mb: 0, color: "rgb(27, 99, 61)", fontFamily: "Cormorant SC, serif", textAlign: "left"}}>Dump</Typography>
                     <Divider sx={{background: "rgb(27, 99, 61)", width: "50vh"}}/>
@@ -21,12 +24,12 @@ export default function Projects() {
                     <Typography variant="h2" gutterBottom sx={{mb: 0, color: "rgb(27, 99, 61)", fontFamily: "Cormorant SC, serif", textAlign: "left"}}>BlogShare</Typography>
                     <Divider sx={{background: "rgb(27, 99, 61)", width: "50vh"}}/>
                 </Box>
-                <img className="projImg2" src="/bshare1.png" alt="me"></img>
+                <img className="projImg2" src="/projects/bshare1.png" alt="me"></img>
             </Box>
         </Fade>
         <Fade left>
             <Box sx={{mt: 10, height: "75vh", display: "flex"}}>
-                <img className="projImg" src="/memeg.png" alt="me"></img>
+                <img className="projImg" src="/projects/memeg.png" alt="me"></img>
                 <Box sx={{ml: "10vh", mb: 0}}>
                     <Typography variant="h2" gutterBottom sx={{mb: 0, color: "rgb(27, 99, 61)", fontFamily: "Cormorant SC, serif", textAlign: "left"}}>Meme Generator.</Typography>
                     <Divider sx={{background: "rgb(27, 99, 61)", width: "50vh"}}/>
@@ -39,10 +42,10 @@ export default function Projects() {
                     <Typography variant="h2" gutterBottom sx={{mb: 0, color: "rgb(27, 99, 61)", fontFamily: "Cormorant SC, serif", textAlign: "left"}}>Dump</Typography>
                     <Divider sx={{background: "rgb(27, 99, 61)", width: "50vh"}}/>
                 </Box>
-                <img className="projImg2" src="/demo1.jpeg" alt="me"></img>
+                <img className="projImg2" src="/projects/demo1.jpeg" alt="me"></img>
             </Box>
         </Fade>
-        </>
+        </Box>
        
     )
 }

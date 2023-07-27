@@ -39,9 +39,9 @@ export default function Header() {
                   <ListItemText primary={"home"} />
                 </ListItemButton>
             </ListItem>
-            {['about', 'stack', 'projects', 'contact'].map((text) => (
+            {['About', 'Stack', 'Projects', 'Contact'].map((text) => (
               <ListItem key={text} disablePadding>
-                <ListItemButton component={NavLink} to={`/${text}`}>
+                <ListItemButton component={NavLink} to={`/${text.toLocaleLowerCase()}`}>
                   <ListItemIcon>
                     <EastIcon/>
                   </ListItemIcon>
@@ -54,31 +54,34 @@ export default function Header() {
       );    
 
     return (
-        <Box className="header" 
-             sx={{display: "flex",
-                  height: "100px",
-                  justifyContent: "space-between",
-                  alignItems: "baseline",
-                  background: "rgb(27, 99, 61)",
-                  boxShadow: 10,
-                  position: "relative",
-                  zIndex: 1
-                  }}>
-            {/* <NavLink className='navLink' to='/'>JDH</NavLink> */}
-            <Link className='navLink' underline="none" sx={{ml: "47%",mt: "-10px", fontFamily: "Faster One, cursive", fontSize: "100px", color: "white", textShadow: "-6px -0px 1px rgba(255,255,255,0.5)"}} component={NavLink} to={"/"}>JH</Link>
-            <Fragment key={anchor}>
-                <Button onClick={toggleMenu(anchor, true)} sx={{bottom:"10px", right: "5px"}}>
-                    <MenuIcon sx={{fontSize : "50px", color: "white"}}/>
-                </Button>
-                <Drawer
-                    anchor={anchor}
-                    open={menuBtn[anchor]}
-                    onClose={toggleMenu(anchor, false)}
-                >
-                    {list(anchor)}
-                </Drawer>
+        <></>
+        // <Box className="header" 
+        //      sx={{display: "flex",
+        //           height: "100px",
+        //           width: "100%",
+        //           justifyContent: "space-between",
+        //           alignItems: "baseline",
+        //           background: "rgb(27, 99, 61)",
+        //           boxShadow: 10,
+        //           position: "fixed",
+        //           zIndex: 1,
+        //           top: 0
+        //           }}>
+        //     {/* <NavLink className='navLink' to='/'>JDH</NavLink> */}
+        //     <Link className='navLink' underline="none" sx={{ml: "45%",mt: "-10px", fontFamily: "Faster One, cursive", fontSize: "100px", color: "white", textShadow: "-6px -0px 1px rgba(255,255,255,0.5)"}} component={NavLink} to={"/"}>JH</Link>
+        //     <Fragment key={anchor}>
+        //         <Button onClick={toggleMenu(anchor, true)} sx={{bottom:"10px", right: "5px"}}>
+        //             <MenuIcon sx={{fontSize : "50px", color: "white"}}/>
+        //         </Button>
+        //         <Drawer
+        //             anchor={anchor}
+        //             open={menuBtn[anchor]}
+        //             onClose={toggleMenu(anchor, false)}
+        //         >
+        //             {list(anchor)}
+        //         </Drawer>
 
-            </Fragment>
-        </Box>
+        //     </Fragment>
+        // </Box>
     )
 }
