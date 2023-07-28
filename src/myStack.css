@@ -2,10 +2,10 @@
 	width: 100%;
 	max-width: 1000px;
 	height: 500px;
-	border-radius: 50px;
+	border-radius: 00px;
     border-width: 10px;
     background: rgb(27, 99, 61);
-    box-shadow: inset .5px .5px 30px 5px black;
+    box-shadow: inset .5px .5px 30px 5px rgb(49, 49, 49);
 }
 
 .child {

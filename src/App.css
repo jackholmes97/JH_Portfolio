@@ -30,10 +30,14 @@ box-shadow: 2px 2px 20px grey;
 }
 
 .contact {
-  height: 30vh;
-  background: rgb(27, 99, 61);
+  height: 10vh;
 }
-
+.email {
+  text-decoration: rgb(27, 99, 61);
+}
+.email:hover {
+  text-decoration: underline rgb(27, 99, 61);
+}
 .me {
   position: relative;
   height: 50vh;

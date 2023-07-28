@@ -1,6 +1,4 @@
 import '../App.css';
-import SlideRoutes from 'react-slide-routes';
-import {Route, Routes, useLocation} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Header from './Header';
