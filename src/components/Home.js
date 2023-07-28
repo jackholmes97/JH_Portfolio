@@ -4,6 +4,8 @@ import Typography from "@mui/material/Typography";
 import Bounce from "react-reveal/Bounce";
 import Slide from "react-reveal/Slide";
 import Fade from "@mui/material/Fade";
+import { Button } from "@mui/material";
+import DownloadIcon from '@mui/icons-material/Download';
 export default function Home() {
     return (
         <div className="home">
@@ -26,6 +28,10 @@ export default function Home() {
             <Fade in={true} timeout={10000}>
             <Typography variant="h6" gutterBottom sx={{mt: 2, ml: "200px", fontFamily: "Cardo, serif",fontStyle:"italic", textAlign: "left", fontSize: "25px", color: "rgb(27, 99, 61)"}}>* Front End & UX Developer</Typography>
             </Fade>
+            <button className="btn2">
+                <DownloadIcon sx={{mr: 1}}/>
+                Download my Resume
+            </button>
             {/* <Box sx={{backgroundColor: "rgb(27, 99 , 61)", padding: "15px", boxShadow: 15}}>
                 <Typography variant="body1" gutterBottom sx={{textAlign: "left", color: "white", fontFamily: "CormorantSC, serif"}}>
                     An enthusiastic Software Developer with a passion for solving complex problems and creating unique digital experiences. Possesses strong communication skills and creativity that help cultivate an efficient, synchronous, and fun work environment. Has an extensive background in the performing arts working as a professional actor, to which he can attribute his composure under-pressure and his affinity for creative collaboration.

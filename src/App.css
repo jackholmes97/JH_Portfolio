@@ -83,6 +83,26 @@ box-shadow: 2px 2px 20px grey;
   font-family: 'Poiret One', cursive;
 }
 
+.btn2 {
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  color: rgb(27, 99, 61);
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  left: 123vh;
+  bottom: 35px;
+}
+.bt2:hover {
+  color:rgb(99, 253, 171)
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(0);

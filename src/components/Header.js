@@ -6,13 +6,13 @@ export default function Header() {
 
     return (
         <Box className="side-btns" sx={{zIndex: "10001", position: "fixed", ml: 2.5, mt: 15}}>
-            <Avatar sx={{mb: 1, borderRadius: 0}}>
+            <Avatar sx={{mb: 1, borderRadius: 0, boxShadow: 5}}>
                 E
             </Avatar >
-            <Avatar sx={{mb: 1, borderRadius: 0}}>
+            <Avatar sx={{mb: 1, borderRadius: 0, boxShadow: 5}}>
                 G
             </Avatar>
-            <Avatar sx={{mb: 1, borderRadius: 0}}>
+            <Avatar sx={{mb: 1, borderRadius: 0, boxShadow: 5}}>
                 L
             </Avatar>
         </Box>
