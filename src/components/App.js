@@ -8,7 +8,7 @@ import Projects from './Projects';
 import Stack from './Stack';
 import Contact from './Contact';
 function App() {
-  const items = [{name: "React", logo: "./logos/React.png", color: "rgb(79, 91, 102)"},
+  const items = [{name: "React", logo: "./logos/React.png", color: "white"},
                  {name:"JavaScript", logo: "./logos/JavaScript.png", color: "rgb(79, 91, 102)"},
                  {name: "Material UI", logo: "./logos/MUI.png", color: "rgb(79, 91, 102)"},
                  {name: "Ruby", logo: "./logos/ruby.png", color: "rgb(79, 91, 102)"},

@@ -5,7 +5,7 @@ import "react-bubble-ui/dist/index.css";
 import "../myStack.css";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-
+import { Fade } from "react-reveal";
 export default function Stack(items) {
     const options = {
 		size: 180,
@@ -30,8 +30,13 @@ export default function Stack(items) {
 
 
     return (
-        <Box sx={{background: "rgb(27, 99, 61)", height: "100vh", pt: 5}}>
-            <Typography variant="h1" sx={{fontFamily: "Cormorant SC, serif", color:"white", ml:1}} gutterBottom>Technical Skills</Typography>
+        <Box sx={{background: "white", height: "100vh", pt: 5, mb: 25}}>
+            <Fade left>
+            <div className="geek4"></div>
+            <div className="geek6"></div>
+            </Fade>
+            <Typography variant="h1" sx={{fontFamily: "Cardo, serif", fontStyle: "italic", color:"rgb(27,99,61)", ml:1, mb: 0}} gutterBottom>Technical Skills</Typography>
+            <Typography variant="h2" sx={{fontFamily: "Poiret One, cursive", color:"rgb(27,99,61)", ml:1, mt: 0}} gutterBottom>***</Typography>
             <Box sx={{paddingLeft: 30}}>
                 <BubbleUI options={options} className="myBubbleUI">
                     {itemlist}
