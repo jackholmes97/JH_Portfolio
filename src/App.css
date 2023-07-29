@@ -4,19 +4,38 @@
 
 
 .projImg {
-height: 60vh;
-width: 80vh;
-margin-left: 25vh;
+height: 55vh;
+width: 70vh;
+margin-left: 10vh;
+margin-top: 10vh;
+
 box-shadow: 2px 2px 20px grey;
 }
 
 .projImg2 {
-  height: 60vh;
-  width: 80vh;
-  margin-left: 10vh;
-  margin-right: 25vh;
+  height: 55vh;
+  width: 70vh;
+
+  margin-top: 13vh;
   box-shadow: 2px 2px 20px grey;
-  }
+}
+
+.copy {
+  margin-left: 90vh;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-family: "Cardo", serif;
+  color: rgb(27, 99, 61);
+  margin-left: 70vh;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 
 .home {
   width: 100vh;
@@ -27,26 +46,36 @@ box-shadow: 2px 2px 20px grey;
   rgba(255,255,255,.75)), url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426"); */
   background-size: 100%;
   background-position-y: 50%;
+  overflow: hidden;
 }
 
 .contact {
   height: 10vh;
+  display: flex;
 }
 .email {
   text-decoration: rgb(27, 99, 61);
+  max-width: 50px;
+  font-family: "Cardo", serif;
+  color: rgb(27, 99, 61);
 }
 .email:hover {
   text-decoration: underline rgb(27, 99, 61);
 }
 .me {
-  position: relative;
+  position: absolute;
   height: 50vh;
-  top: 220px;
-  left: 300px;
+  top: 30vh;
+  left: 40vh;
   background: white;
   box-shadow: 1px 5px 10px grey;
+  z-index: 0;
 }
-
+.inner-home {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+}
 .btn {
   font-size: 25px;
   text-align: left;
@@ -84,8 +113,8 @@ box-shadow: 2px 2px 20px grey;
 }
 
 .btn2 {
-  padding: 5px;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 2.5vh;
   text-align: left;
   font-family: 'Cardo', serif;
   font-style: italic;
@@ -96,8 +125,8 @@ box-shadow: 2px 2px 20px grey;
   align-items: center;
   position: relative;
   cursor: pointer;
-  left: 123vh;
-  bottom: 35px;
+  bottom: calc(1vh + 25px);
+  left: 62vw;
 }
 .bt2:hover {
   color:rgb(99, 253, 171)
@@ -155,7 +184,7 @@ box-shadow: 2px 2px 20px grey;
   height: 2px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: -85%; /* Initial position outside the left edge of the screen */
   animation: slideInFromLeft 5s ease forwards;
 }
@@ -165,7 +194,7 @@ box-shadow: 2px 2px 20px grey;
   height: 3px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 7.5%;
+  top: 12.5%;
   left: -90%; /* Initial position outside the left edge of the screen */
   animation: slideInFromLeft 5s ease forwards;
 }
@@ -175,7 +204,7 @@ box-shadow: 2px 2px 20px grey;
   height: 5px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: -95%; /* Initial position outside the left edge of the screen */
   animation: slideInFromLeft 5s ease forwards;
 }
@@ -185,7 +214,7 @@ box-shadow: 2px 2px 20px grey;
   height: 2px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 90%;
+  top: 95%;
   right: -85%; /* Initial position outside the right edge of the screen */
   animation: slideInFromRight 5s ease forwards;
 }
@@ -194,7 +223,7 @@ box-shadow: 2px 2px 20px grey;
   height: 3px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 92.5%;
+  top: 97.5%;
   right: -90%; /* Initial position outside the right edge of the screen */
   animation: slideInFromRight 5s ease forwards;
 }
@@ -203,10 +232,26 @@ box-shadow: 2px 2px 20px grey;
   height: 5px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 95%;
+  top: 100%;
   right: -95%; /* Initial position outside the right edge of the screen */
   animation: slideInFromRight 5s ease forwards;
 }
+
+.menu-btn {
+  font-family: "Cardo", serif;
+  font-style: italic;
+  font-size: 4vh;
+  border: none;
+  background: transparent;
+  color: rgb(27, 99, 61);
+  cursor: pointer;
+}
+.menu-btn:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
 .App {
   text-align: center;
+  background: whitesmoke;
 }

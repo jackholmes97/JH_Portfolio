@@ -1,19 +1,18 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import { Fade, Bounce } from "react-reveal";
-import Divider from "@mui/material/Divider";
+import { Fade } from "react-reveal";
 
 export default function About() {
     return (
-        <Box sx={{height: "75vh", display: "flex",position:"relative", paddingTop: 5, zIndex: 2, backgroundColor:"white"}}>
+        <Box className="about" sx={{height: "75vh", display: "flex",position:"relative", paddingTop: 5, zIndex: 2, backgroundColor:"transparent"}}>
             <Box sx={{position: "absolute"}}>
             <Fade top>
                 <Typography variant="h2" sx={{fontFamily: "Cardo, serif", fontStyle:"italic", color: "rgb(27, 99, 61)", mb:0}} gutterBottom>About Me</Typography>
                 <Typography variant="h4" sx={{fontFamily: "Poiret One, cursive", color: "rgb(27,99,61)", mt:0,}} gutterBottom>***</Typography>
             </Fade>
             <Fade bottom>
-                <Box sx={{ ml: "30vh", mr: "30vh", padding: 5, background: "rgb(27, 99, 61)", boxShadow: 10, zIndex: 0}}>
+                <Box sx={{ ml: "20vw", mr: "20vw", maxHeight:"40vh", padding: 5, background: "rgb(27, 99, 61)", boxShadow: 10, zIndex: 0, overflow:"scroll"}}>
                     <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif" }} gutterBottom>
                         Growing up in Bellevue, WA where the massive presence of global tech giants like Amazon, Microsoft, T-Mobile and Adobe is undeniable, the tech industry has always been in my periphery. I didn't start to seriously consider coding as a passion until I took AP Computer Science in high school, which I loved a lot but ultimately went on to go to school for acting. Fast forward to 2020, I was feeling professionally and intellectually plateaued and was looking to make a career shift. I remembered the excitement I felt for coding in high school and decided to enroll in a Software Engineering Bootcamp. Attending this bootcamp, reinvigorated my zeal for continual learning and made me excited to craft unique digital experiences in an online landscape.
                     </Typography>

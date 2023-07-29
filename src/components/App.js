@@ -5,6 +5,7 @@ import Header from './Header';
 import Projects from './Projects';
 import Stack from './Stack';
 import Contact from './Contact';
+import Menu from './Menu';
 function App() {
   const items = [{name: "React", logo: "./logos/React.png", color: "white"},
                  {name:"JavaScript", logo: "./logos/JavaScript.png", color: "rgb(79, 91, 102)"},
@@ -30,6 +31,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Menu/>
       <Home/>
       <About/>
       <Stack items={items}/>

@@ -30,14 +30,14 @@ export default function Stack(items) {
 
 
     return (
-        <Box sx={{background: "white", height: "100vh", pt: 5, mb: 25}}>
+        <Box className="skills" sx={{background: "transparent", height: "100vh", pt: 5, mb: 25}}>
             <Fade left>
             <div className="geek4"></div>
             <div className="geek6"></div>
             </Fade>
             <Typography variant="h1" sx={{fontFamily: "Cardo, serif", fontStyle: "italic", color:"rgb(27,99,61)", ml:1, mb: 0}} gutterBottom>Technical Skills</Typography>
             <Typography variant="h2" sx={{fontFamily: "Poiret One, cursive", color:"rgb(27,99,61)", ml:1, mt: 0}} gutterBottom>***</Typography>
-            <Box sx={{paddingLeft: 30}}>
+            <Box sx={{ml: "15.5vw", mr: "15.5vw", overflow: "hidden"}}>
                 <BubbleUI options={options} className="myBubbleUI">
                     {itemlist}
                 </BubbleUI>
