@@ -7,7 +7,6 @@
 height: 55vh;
 width: 70vh;
 margin-left: 10vh;
-margin-top: 10vh;
 
 box-shadow: 2px 2px 20px grey;
 }
@@ -19,6 +18,14 @@ box-shadow: 2px 2px 20px grey;
   margin-top: 13vh;
   box-shadow: 2px 2px 20px grey;
 }
+
+.projImg3 {
+  height: 55vh;
+  width: 70vh;
+  margin-left: 10vh;
+  margin-top: 11vh;
+  box-shadow: 2px 2px 20px grey;
+  }
 
 .copy {
   margin-left: 90vh;
@@ -50,6 +57,7 @@ box-shadow: 2px 2px 20px grey;
 }
 
 .contact {
+  margin-top: 10vh;
   height: 10vh;
   display: flex;
 }

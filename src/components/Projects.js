@@ -43,10 +43,10 @@ export default function Projects() {
                 </Fade>
                 <Fade right>
                     <Grid item xs={4}>
-                        <Box sx={{mt: "75px", ml: "15vw", mb: 0, width: "20vw", mr: "25vw" }}>
+                        <Box sx={{mt: "75px", ml: "5vw", mb: 0, width: "29vw", mr: "25vw" }}>
                             <Typography variant="h2" gutterBottom sx={{ mb: 0, color: "rgb(27, 99, 61)", fontFamily: "Cormorant SC, serif", textAlign: "left" }}>BlogShare</Typography>
                             <Divider sx={{ background: "rgb(27, 99, 61)", width: "50vh" }} />
-                            <Typography variant="body1" sx={{ fontFamily: "Cardo, serif", textAlign: "justify", mt: 1, width: "26vw" }} gutterBottom>
+                            <Typography variant="body1" sx={{ fontFamily: "Cardo, serif", textAlign: "justify", mt: 1, width: "37vw" }} gutterBottom>
                                 Imagine if Instagram was anti-curatorial? Anyone could share whatever they wanted without the pressures of making their profile look nice. Dump was created in this vein because that shit is old, man. Dump is a cloud-based image sharing site that bites its thumb at the photo editors and social media managers of the world. If you have authentic content that is ripe for sharing, share it (or dump it) here.
                                 <br></br>
                                 <br></br>
@@ -68,7 +68,7 @@ export default function Projects() {
                 </Fade>
                 <Fade left>
                     <Grid item xs={4}>
-                        <img className="projImg" src="/projects/memeg.png" alt="me"></img>
+                        <img className="projImg3" src="/projects/memeg.png" alt="me"></img>
                     </Grid>
                     <Grid item xs={4}>
                         <Box sx={{paddingLeft: "19vw", pt: "9vh"}}>
