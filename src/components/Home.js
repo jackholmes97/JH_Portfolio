@@ -29,10 +29,10 @@ export default function Home() {
                     <Typography variant="h2" gutterBottom sx={{ml: "16vw",width: "25vw" , fontFamily: "Cardo, serif", fontStyle: "italic", textAlign: "left", fontSize: "3.5vh", color: "rgb(27, 99, 61)" }}>* Front End & UX Developer</Typography>
                 </Fade>
                 <Slide right>
-                    <button className="btn2">
+                    <a className="btn2" href="./jack-resume.pdf" download="jack-resume.pdf">
                         <DownloadIcon sx={{ mr: 1 }} />
                         Download my Resume
-                    </button>
+                    </a>
                 </Slide>
             </Box>
             </div>

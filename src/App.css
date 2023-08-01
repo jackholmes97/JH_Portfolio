@@ -101,6 +101,7 @@ box-shadow: 2px 2px 20px grey;
   cursor: pointer;
   margin-right: 50px;
   margin-top: 15px;
+  text-decoration: none;
 }
 
 .btn:after {
@@ -139,6 +140,7 @@ box-shadow: 2px 2px 20px grey;
   cursor: pointer;
   bottom: calc(1vh + 25px);
   left: 62vw;
+  text-decoration: none;
 }
 .bt2:hover {
   color:rgb(99, 253, 171)
