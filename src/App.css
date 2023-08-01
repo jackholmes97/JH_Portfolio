@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+SC:wght@700&family=Poiret+One&display=swap');
 
-
+.web-copy {
+  color: white;
+  font-family: "Cardo", serif;
+  text-align: left;
+}
 .projImg {
 height: 55vh;
 width: 70vh;
 margin-left: 10vh;
-
+margin-top: 5px;
 box-shadow: 2px 2px 20px grey;
 }
 
