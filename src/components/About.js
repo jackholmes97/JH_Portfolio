@@ -25,11 +25,11 @@ export default function About() {
                             </li>
                             <br/>
                             <li>
-                                <strong>I'm a life-long learner.</strong> rom new methodologies to new languages, technology is constantly changing. I am passionate about maintaining and supporting curiosity throughout my career.
+                                <strong>I'm a life-long learner.</strong> From new methodologies to new languages, technology is constantly changing. I am passionate about maintaining and supporting curiosity throughout my career.
                             </li>
                             <br/>
                             <li>
-                                <strong>I work well with others.</strong>  am an adept communicator and a thoughtful collaborator. My training as an actor and my experience in hospitality has made me agile and adaptable with a customer-first mindset.
+                                <strong>I work well with others.</strong> I am an adept communicator and a thoughtful collaborator. My training as an actor and my experience in hospitality has made me agile and adaptable with a customer-first mindset.
                             </li>
                         </ul>
                         <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif" }} gutterBottom>

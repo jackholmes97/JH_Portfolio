@@ -268,4 +268,6 @@ box-shadow: 2px 2px 20px grey;
 .App {
   text-align: center;
   background: whitesmoke;
+  width: 100%;
+  height: auto;
 }
