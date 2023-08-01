@@ -62,7 +62,7 @@ export default function Projects() {
                         </Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <img className="projImg2" src="/projects/bshare1.png" alt="me"/>
+                        <img className="projImg2" src="./bshare1.png" alt="me"/>
                     </Grid>
                 </Fade>
                 <Fade left>
