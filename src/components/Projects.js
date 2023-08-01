@@ -18,7 +18,7 @@ export default function Projects() {
             <Grid container columns={2} >
                 <Fade left>
                     <Grid item xs={4}>
-                        <img className="projImg" src="./Dumpp.png" alt="me"></img>
+                        <img className="projImg" src="./dumpp.png" alt="me"></img>
                     </Grid>
                     <Grid item xs={4}>
                         <Box sx={{ width: "36vw", pl:"18vw"}}>
