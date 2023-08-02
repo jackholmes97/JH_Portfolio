@@ -30,7 +30,7 @@ export default function Stack(items) {
 
 
     return (
-        <Box className="skills" sx={{background: "transparent", height: "100vh", pt: 5, mb: 25}}>
+        <Box className="skills" sx={{background: "transparent", height: "100vh", pt: 5, mb: "20vh"}}>
             <Fade left>
             <div className="geek4"></div>
             <div className="geek6"></div>

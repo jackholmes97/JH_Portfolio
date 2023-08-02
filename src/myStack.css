@@ -1,8 +1,6 @@
 .myBubbleUI {
 	width: 70vw;
 	height: 70vh;
-	border-radius: 00px;
-    border-width: 10px;
     background: rgb(27, 99, 61);
     box-shadow: inset .5px .5px 30px 5px rgb(49, 49, 49);
 }

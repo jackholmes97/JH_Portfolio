@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 export default function Header() {   
 
     return (
-        <Box className="side-btns" sx={{zIndex: "10001", position: "fixed", ml: 2.5, mt: 15}}>
+        <Box className="side-btns" sx={{zIndex: 1, position: "fixed", ml: "1vw", mt: "14vh"}}>
             <a href="mailto: jdholmes48@gmail.com?subject=Hello!">
             <Avatar sx={{mb: 1, borderRadius: 0, boxShadow: 5, background: "rgb(27,99,61)", cursor: "pointer"}}>
                 <EmailIcon/>

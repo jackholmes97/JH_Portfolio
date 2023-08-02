@@ -159,31 +159,31 @@ box-shadow: 2px 2px 20px grey;
 .geek4 {
   width: 85%;
   background: rgb(27, 99, 61);
-  height: 5px;
-  margin-bottom: 25px;
+  height: .5vh;
+  margin-bottom: 2.5vh;
 }
 
 .geek6 {
   width: 75%;
   background: rgb(27, 99, 61);
-  height: 2px;
+  height: .2vh;
   
-  margin-bottom: 75px;
+  margin-bottom: 7.5vh;
 }
 
 .geek5 {
   width: 85%;
   background: rgb(27, 99, 61);
-  height: 5px;
+  height: .5vh;
   margin-left: 15%;
-  margin-bottom: 75px;
+  margin-bottom: 7.5vh;
 }
 .geek7 {
   width: 75%;
   background: rgb(27, 99, 61);
-  height: 2px;
+  height: .2vh;
   margin-left: 25%;
-  margin-bottom: 25px;
+  margin-bottom: 2.5vh;
 }
 
 .geeks {
