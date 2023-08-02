@@ -25,6 +25,7 @@ export default function Menu() {
             <button className="menu-btn" onClick={handleAboutScroll}>About</button>
             <button className="menu-btn" onClick={handleSkillsScroll}>Skills</button>
             <button className="menu-btn" onClick={handleProjectsScroll}>Projects</button>
+            <a className="menu-btn" href="./jack-resume.pdf" download="jack-resume.pdf">Resume</a>
         </Box>
     )
 }

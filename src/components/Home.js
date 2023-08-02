@@ -17,23 +17,23 @@ export default function Home() {
                     <img className="me" src="Me2.JPG" alt="me"></img>
                 </Bounce>
             </Box>
-            <Box sx={{ width: "500px", mt: 15,position: "absolute", ml: "42vh"}}>
+            <Box sx={{ width: "50vw", mt: "15vh",position: "absolute", ml: "42vh"}}>
                 <Slide left>
-                    <Typography variant="h1" gutterBottom sx={{ fontSize: "25vh", fontFamily: "Poiret One, cursive", mb: 0, textAlign: "right", color: "rgb(27, 99, 61)", ml: "60vh" }}>JACK</Typography>
+                    <Typography variant="h1" gutterBottom sx={{ fontSize: "25vmin", fontFamily: "Poiret One, cursive", mb: 0, textAlign: "right", color: "rgb(27, 99, 61)", ml: "31vw" }}>JACK</Typography>
                 </Slide>
                 <br />
                 <Slide right>
-                    <Typography variant="h1" gutterBottom className="inverted-text" sx={{ fontSize: "25vh", fontFamily: "Poiret One, cursive", mb: 0, textAlign: "right", color: "rgb(27, 99, 61)", ml: "30vh", mixBlendMode: "lighten" }}>HOLMES*</Typography>
+                    <Typography variant="h1" gutterBottom className="inverted-text" sx={{ fontSize: "25vh", fontFamily: "Poiret One, cursive", mb: 0, textAlign: "right", color: "rgb(27, 99, 61)", ml: "16vw", mixBlendMode: "lighten" }}>HOLMES*</Typography>
                 </Slide>
                 <Fade in={true} timeout={8000}>
                     <Typography variant="h2" gutterBottom sx={{ml: "16vw",width: "25vw" , fontFamily: "Cardo, serif", fontStyle: "italic", textAlign: "left", fontSize: "3.5vh", color: "rgb(27, 99, 61)" }}>* Front End & UX Developer</Typography>
                 </Fade>
-                <Slide right>
+                {/* <Slide right>
                     <a className="btn2" href="./jack-resume.pdf" download="jack-resume.pdf">
-                        <DownloadIcon sx={{ mr: 1 }} />
+                        <DownloadIcon fontSize="2vh" sx={{mr:"1vh"}}/>
                         Download my Resume
                     </a>
-                </Slide>
+                </Slide> */}
             </Box>
             </div>
             <div className="another-div"></div>

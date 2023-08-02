@@ -9,13 +9,13 @@ export default function Contact() {
     return (
         <div className="contact">
             <div className="copy">
-            <Typography variant="body1" sx={{fontFamily:"Cardo, serif", color: "rgb(27,99,61)", t: "500px"}} gutterBottom>© 2023 Jack Holmes</Typography>
+            <Typography variant="body1" sx={{fontFamily:"Cardo, serif", color: "rgb(27,99,61)", fontSize: "2vh"}} gutterBottom>© 2023 Jack Holmes</Typography>
             <a className="email" href="mailto:jdholmes48@gmail.com?subject=Hello!">
                 jdholmes48@gmail.com
             </a>
             </div>
             <button className="scroll" onClick={scrollToTop}>
-                <StraightIcon/>
+                <StraightIcon fontSize="2vh"/>
                 Top
             </button>
         </div>

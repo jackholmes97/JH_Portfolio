@@ -8,15 +8,15 @@ export default function About() {
         <Box className="about" sx={{ height: "95vh", display: "flex", position: "relative", paddingTop: 1, zIndex: 2, backgroundColor: "transparent" }}>
             <Box sx={{ position: "absolute" }}>
                 <Fade top>
-                    <Typography variant="h2" sx={{ fontFamily: "Cardo, serif", fontStyle: "italic", color: "rgb(27, 99, 61)", mb: 0 }} gutterBottom>About Me</Typography>
-                    <Typography variant="h4" sx={{ fontFamily: "Poiret One, cursive", color: "rgb(27,99,61)", mt: 0, }} gutterBottom>***</Typography>
+                    <Typography variant="h2" sx={{ fontFamily: "Cardo, serif", fontStyle: "italic", color: "rgb(27, 99, 61)", mb: "0vh",ml:"5vw", fontSize: "10vh" }} gutterBottom>About Me</Typography>
+                    <Typography variant="h4" sx={{ fontFamily: "Poiret One, cursive", color: "rgb(27,99,61)", ml:"5vw", fontSize: "8vh"}} gutterBottom>***</Typography>
                 </Fade>
                 <Fade bottom>
-                    <Box sx={{ ml: "20vw", mr: "20vw", maxHeight: "60vh", padding: 5, background: "rgb(27, 99, 61)", boxShadow: 10, zIndex: 0 }}>
-                        <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif", mb: "15px" }} gutterBottom>
+                    <Box sx={{ ml: "20vw", mr: "20vw", height: "55vh", width: "55vw", padding: "3%", background: "rgb(27, 99, 61)", boxShadow: 10, zIndex: 0, overflow: "scroll" }}>
+                        <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif", mb: "15px", fontSize: "2vh" }} gutterBottom>
                             Growing up in Bellevue, WA, where the massive presence of global tech giants like Amazon, Microsoft, T-Mobile and Adobe is undeniable, the tech industry has always been in my periphery. Early on I took a computer science class and discovered I had a knack for coding. However, instead, I pursued a career in theatre, got my Bachelors degree in Acting, and moved to New York. While living in New York and struggling through the pandemic, I re-evaluated my direction and career path. I refocused my creative energy from the stage to learning to code.
                         </Typography>
-                        <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif" }} gutterBottom>
+                        <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif", fontSize: "2vh"  }} gutterBottom>
                             Here's 3 things you should know about me:
                         </Typography>
                         <ul className="web-copy">
@@ -32,7 +32,7 @@ export default function About() {
                                 <strong>I work well with others.</strong> I am an adept communicator and a thoughtful collaborator. My training as an actor and my experience in hospitality has made me agile and adaptable with a customer-first mindset.
                             </li>
                         </ul>
-                        <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif" }} gutterBottom>
+                        <Typography variant="body1" sx={{ textAlign: "justify", color: "white", fontFamily: "Cardo, serif", fontSize:"2vh" }} gutterBottom>
                             My goal is to bring these skills together with my passion for code, to create unique digital experiences that have a positive impact.
                         </Typography>
                     </Box>

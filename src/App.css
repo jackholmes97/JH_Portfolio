@@ -6,10 +6,11 @@
   color: white;
   font-family: "Cardo", serif;
   text-align: left;
+  font-size: 2vh;
 }
 .projImg {
 height: 55vh;
-width: 70vh;
+width: 35vw;
 margin-left: 10vh;
 margin-top: 5px;
 box-shadow: 2px 2px 20px grey;
@@ -17,7 +18,7 @@ box-shadow: 2px 2px 20px grey;
 
 .projImg2 {
   height: 55vh;
-  width: 70vh;
+  width: 35vw;
 
   margin-top: 13vh;
   box-shadow: 2px 2px 20px grey;
@@ -25,14 +26,14 @@ box-shadow: 2px 2px 20px grey;
 
 .projImg3 {
   height: 55vh;
-  width: 70vh;
+  width: 35vw;
   margin-left: 10vh;
   margin-top: 11vh;
   box-shadow: 2px 2px 20px grey;
   }
 
 .copy {
-  margin-left: 90vh;
+  margin-left: 45vw;
 }
 
 .scroll {
@@ -40,23 +41,19 @@ box-shadow: 2px 2px 20px grey;
   align-items: center;
   background: transparent;
   border: none;
-  font-size: 20px;
+  font-size: 3vh;
   font-family: "Cardo", serif;
   color: rgb(27, 99, 61);
-  margin-left: 70vh;
-  margin-bottom: 10px;
+  margin-bottom: 2vh;
   cursor: pointer;
+  margin-left: 35vw;
 }
 
 .home {
-  width: 100vh;
+  width: 100vw;
   display: flex;
   height: 100vh;
   background: transparent;
-  /* background: linear-gradient(to right, rgba(255,255,255,0) 5%,
-  rgba(255,255,255,.75)), url("https://cdna.artstation.com/p/assets/images/images/044/191/134/original/ryan-haight-kerry-park.gif?1639344426"); */
-  background-size: 100%;
-  background-position-y: 50%;
   overflow: hidden;
 }
 
@@ -67,7 +64,7 @@ box-shadow: 2px 2px 20px grey;
 }
 .email {
   text-decoration: rgb(27, 99, 61);
-  max-width: 50px;
+  font-size: 2vh;;
   font-family: "Cardo", serif;
   color: rgb(27, 99, 61);
 }
@@ -83,13 +80,8 @@ box-shadow: 2px 2px 20px grey;
   box-shadow: 1px 5px 10px grey;
   z-index: 0;
 }
-.inner-home {
-  display: flex;
-  z-index: 1;
-  overflow: hidden;
-}
 .btn {
-  font-size: 25px;
+  font-size: 3.5vh;
   text-align: left;
   font-family: 'Cardo', serif;
   font-style: italic;
@@ -138,8 +130,9 @@ box-shadow: 2px 2px 20px grey;
   align-items: center;
   position: relative;
   cursor: pointer;
-  bottom: calc(1vh + 25px);
-  left: 62vw;
+  
+  left: 60vw;
+  bottom: 3vh;
   text-decoration: none;
 }
 .bt2:hover {
@@ -198,7 +191,7 @@ box-shadow: 2px 2px 20px grey;
   height: 2px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 15%;
+  top: 15vh;
   left: -85%; /* Initial position outside the left edge of the screen */
   animation: slideInFromLeft 5s ease forwards;
 }
@@ -208,7 +201,7 @@ box-shadow: 2px 2px 20px grey;
   height: 3px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 12.5%;
+  top: 12.5vh;
   left: -90%; /* Initial position outside the left edge of the screen */
   animation: slideInFromLeft 5s ease forwards;
 }
@@ -218,7 +211,7 @@ box-shadow: 2px 2px 20px grey;
   height: 5px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 10%;
+  top: 10vh;
   left: -95%; /* Initial position outside the left edge of the screen */
   animation: slideInFromLeft 5s ease forwards;
 }
@@ -228,7 +221,7 @@ box-shadow: 2px 2px 20px grey;
   height: 2px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 95%;
+  top: 95vh;
   right: -85%; /* Initial position outside the right edge of the screen */
   animation: slideInFromRight 5s ease forwards;
 }
@@ -237,7 +230,7 @@ box-shadow: 2px 2px 20px grey;
   height: 3px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 97.5%;
+  top: 97.5vh;
   right: -90%; /* Initial position outside the right edge of the screen */
   animation: slideInFromRight 5s ease forwards;
 }
@@ -246,7 +239,7 @@ box-shadow: 2px 2px 20px grey;
   height: 5px;
   background: rgb(27, 99, 61);
   position: absolute;
-  top: 100%;
+  top: 100vh;
   right: -95%; /* Initial position outside the right edge of the screen */
   animation: slideInFromRight 5s ease forwards;
 }
@@ -259,6 +252,7 @@ box-shadow: 2px 2px 20px grey;
   background: transparent;
   color: rgb(27, 99, 61);
   cursor: pointer;
+  text-decoration: none;
 }
 .menu-btn:hover {
   text-decoration: underline;
@@ -268,6 +262,6 @@ box-shadow: 2px 2px 20px grey;
 .App {
   text-align: center;
   background: whitesmoke;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
