@@ -9,24 +9,17 @@
   font-size: 2vh;
 }
 .projImg {
-height: 55vh;
-width: 35vw;
+height: 55vmin;
+width: 35vmax;
 margin-left: 10vh;
-margin-top: 5px;
+margin-top: 11vh;
 box-shadow: 2px 2px 20px grey;
 }
 
-.projImg2 {
-  height: 55vh;
-  width: 35vw;
-
-  margin-top: 13vh;
-  box-shadow: 2px 2px 20px grey;
-}
 
 .projImg3 {
-  height: 55vh;
-  width: 35vw;
+  height: 55vmin;
+  width: 35vmax;
   margin-left: 10vh;
   margin-top: 11vh;
   box-shadow: 2px 2px 20px grey;
@@ -74,6 +67,7 @@ box-shadow: 2px 2px 20px grey;
 .me {
   position: absolute;
   height: 50vh;
+ 
   top: 30vh;
   left: 20vw;
   background: white;
