@@ -25,7 +25,7 @@ export default function Home() {
                     <Typography variant="h1" gutterBottom className="inverted-text" sx={{fontSize: "25vh", fontFamily: "Poiret One, cursive", mb: 0, textAlign: "right", color: "rgb(27, 99, 61)", ml: "16vw", mixBlendMode: "lighten" }}>HOLMES*</Typography>
                 </Slide>
                 <Fade in={true} timeout={8000}>
-                    <Typography variant="h2" gutterBottom sx={{ml: "16vw",width: "25vw" , fontFamily: "Cardo, serif", fontStyle: "italic", textAlign: "left", fontSize: "3.5vh", color: "rgb(27, 99, 61)" }}>* Front End & UX Developer</Typography>
+                    <Typography variant="h2" gutterBottom sx={{ml: "16vw",width: "25vw" , fontFamily: "Cardo, serif", fontStyle: "italic", textAlign: "left", fontSize: "4.5vh", color: "rgb(27, 99, 61)" }}>* Web Developer</Typography>
                 </Fade>
                 {/* <Slide right>
                     <a className="btn2" href="./jack-resume.pdf" download="jack-resume.pdf">
