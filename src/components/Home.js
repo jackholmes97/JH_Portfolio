@@ -13,7 +13,7 @@ export default function Home() {
             <div className="inner-home">
             <Box >
                 <Bounce bottom>
-                    <img className="me" src="Me2.JPG" alt="me"></img>
+                    <img className="me" src="./site-assets/Me2.JPG" alt="me"></img>
                 </Bounce>
             </Box>
             <Box sx={{ width: "50vw", mt: "15vh",position: "absolute", ml: "42vh"}}>

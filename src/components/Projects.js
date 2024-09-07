@@ -18,7 +18,7 @@ export default function Projects() {
             <Grid container columns={1} >
                 <Fade left>
                     <Grid item xs={4}>
-                        <img className="projImg" src="./dumpp.png" alt="me"></img>
+                        <img className="projImg" src="./site-assets/dumpp.png" alt="me"></img>
                     </Grid>
                     <Grid item xs={4}>
                         <Box sx={{ width: "36vw", pl:"18vw", mt: "10vh"}}>
@@ -44,7 +44,7 @@ export default function Projects() {
                 </Fade>
                 <Fade right>
                     <Grid item xs={4}>
-                        <img className="projImg3" src="./bshare1.png" alt="me"/>
+                        <img className="projImg3" src="./site-assets/bshare1.png" alt="me"/>
                     </Grid>
                     <Grid item xs={4}>
                         <Box sx={{mt: "75px", ml: "18vw", mb: 0, width: "29vw" }}>
@@ -68,7 +68,7 @@ export default function Projects() {
                 </Fade>
                 <Fade left>
                     <Grid item xs={4}>
-                        <img className="projImg3" src="./memeg.png" alt="me"></img>
+                        <img className="projImg3" src="./site-assets/memeg.png" alt="me"></img>
                     </Grid>
                     <Grid item xs={4}>
                         <Box sx={{marginLeft: "18vw", pt: "9vh", width: "29vw"}}>
